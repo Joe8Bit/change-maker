@@ -14,5 +14,5 @@ const makeChange = require('./lib/make-change');
 module.exports = (amount, denominations) => {
   let parsedCurrency = currencyParser(amount);
   let changeArr = makeChange(denominations)(parsedCurrency);
-  return countChange(changeArr);
+  return countChange(changeArr, denominations);
 }
