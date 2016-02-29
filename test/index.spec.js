@@ -12,4 +12,6 @@ test('changeMaker should return an object of the correct change', t => {
     t.is(change[100], 22);
     t.is(change[20], 1);
     t.is(change[10], 1);
+    t.is(change[5], 0);
+    t.is(change[1], 4);
 });
