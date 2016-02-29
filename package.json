@@ -1,0 +1,34 @@
+{
+  "name": "change-maker",
+  "version": "1.0.0",
+  "description": "An implementation of the change-making problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joe8Bit/change-maker.git"
+  },
+  "engines": {
+    "node": ">5.6.0"
+  },
+  "keywords": [
+    "change",
+    "algorithm",
+    "change making problem",
+    "knapsack problem"
+  ],
+  "author": "Joe Pettersson <joe8bit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joe8Bit/change-maker/issues"
+  },
+  "homepage": "https://github.com/Joe8Bit/change-maker#readme",
+  "dependencies": {
+    "accounting": "^0.4.1"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0"
+  }
+}
