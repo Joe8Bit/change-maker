@@ -2,5 +2,7 @@ machine:
   node:
     version: 5.7.0
 test:
+  pre:
+    - npm install -g coveralls
   override:
     - npm run citestcoverage

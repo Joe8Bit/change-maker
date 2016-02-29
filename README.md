@@ -1,6 +1,6 @@
 ## change-maker
 
-[![Circle CI](https://circleci.com/gh/Joe8Bit/change-maker.svg?style=svg)](https://circleci.com/gh/Joe8Bit/change-maker)
+[![Circle CI](https://circleci.com/gh/Joe8Bit/change-maker.svg?style=svg)](https://circleci.com/gh/Joe8Bit/change-maker)[![Coverage Status](https://coveralls.io/repos/github/Joe8Bit/change-maker/badge.svg?branch=master)](https://coveralls.io/github/Joe8Bit/change-maker?branch=master)
 
 Change Maker is a simple general purpose implementation of the '[change making](https://en.wikipedia.org/wiki/Change-making_problem)' problem, this module has been created to talk candidates through a greedy (but memoised and sideffectless) implementation of this classic [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem).
 
