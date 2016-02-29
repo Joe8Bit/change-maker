@@ -6,6 +6,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/Joe8Bit/change-maker/badge.svg?branch=master)](https://coveralls.io/github/Joe8Bit/change-maker?branch=master)
 [![Dependency status](https://david-dm.org/joe8bit/change-maker.svg)](https://david-dm.org/Joe8bit/change-maker)
 [![Dependency status](https://david-dm.org/Joe8bit/change-maker/dev-status.svg)](https://david-dm.org/Joe8bit/change-maker#info=devDependencies&view=table)
+[![npm version](https://badge.fury.io/js/change-maker.svg)](https://badge.fury.io/js/change-maker)
 
 Change Maker is a simple general purpose implementation of the '[change making](https://en.wikipedia.org/wiki/Change-making_problem)' problem, this module has been created to talk candidates through a greedy (but memoised and sideffectless) implementation of this classic [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem).
 
