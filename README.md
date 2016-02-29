@@ -19,7 +19,10 @@ const change = makeChange('$2.34', [100, 50, 25, 10, 5, 1]); // { '100': 2, '50'
 
 ## Testing
 
-`npm test`
+```
+npm test
+npm coverage // runs tests and generates coverage report
+```
 
 ## Contrubuting
 
