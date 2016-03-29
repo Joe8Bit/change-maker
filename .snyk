@@ -1,0 +1,6 @@
+ignore:
+  'npm:request:20160119':
+    - 'coveralls > request':
+        reason: 'Created patch in node-coveralls, waiting for merge and version bump which will fix issue'
+        expires: '2016-04-28T12:16:37.848Z'
+version: v1
