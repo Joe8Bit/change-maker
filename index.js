@@ -12,7 +12,10 @@ const makeChange = require('./lib/make-change');
  * @return {Object}               An object counting the change
  */
 module.exports = (amount, denominations) => {
+  let sortedDenominations = denominations.sort((a, b) => {
+      return a - b;
+  }).reverse();
   let parsedCurrency = currencyParser(amount);
-  let changeArr = makeChange(denominations)(parsedCurrency);
-  return countChange(changeArr, denominations);
+  let changeArr = makeChange(sortedDenominations)(parsedCurrency);
+  return countChange(changeArr, sortedDenominations);
 }
