@@ -30,7 +30,7 @@
   "homepage": "https://github.com/Joe8Bit/change-maker#readme",
   "dependencies": {
     "accounting": "^0.4.1",
-    "lodash": "^4.5.1"
+    "lodash": "^4.16.0"
   },
   "devDependencies": {
     "ava": "^0.13.0",
